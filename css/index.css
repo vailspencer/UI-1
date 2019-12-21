@@ -126,12 +126,24 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.nav-bar {
-  background-color: #b044b9;
-}
-@whole-page {
-  background-color: purple;
+.nav-box {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding-bottom: 25px;
 }
 .text-box {
-  background-color: black;
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+*whole-page {
+  background-color: #1A2246;
+}
+.header-image,
+.img-box {
+  width: 100%;
+  height: auto;
 }
