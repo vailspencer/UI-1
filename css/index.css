@@ -129,9 +129,14 @@ table {
 .nav-box {
   display: inline-flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 15px;
   padding-bottom: 25px;
+}
+.anchor-style {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
 }
 .text-box {
   margin: 30px 0;
@@ -139,11 +144,33 @@ table {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-*whole-page {
+.whole-page {
   background-color: #1A2246;
+  color: green;
 }
 .header-image,
 .img-box {
   width: 100%;
   height: auto;
+}
+.home-page-img {
+  width: 100%;
+  height: auto;
+}
+.top-content {
+  display: flex;
+  flex-direction: column;
+}
+.featured-stories {
+  display: flex;
+  flex-direction: column;
+}
+.story-snip-one {
+  display: flex;
+}
+.story-snip-two {
+  display: flex;
+}
+.story-snip-three {
+  display: flex;
 }
