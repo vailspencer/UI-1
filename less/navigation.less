@@ -1,14 +1,45 @@
-.nav-box {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
+.nav-bar {
     margin-bottom: 15px;
-    padding-bottom: 25px;
-    align-items: center;
+    margin-top: 25px;
+    width: 100%vw;
+    text-align: center;
 }
-
 .anchor-style{
     text-decoration: none;
     color:white;
     padding:20px;
 }
+ul{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin: 0;
+  }
+  a:hover{
+    background-color: #AA6C5A;
+  }
+  @media only screen and (max-width: 500px) {
+
+    .nav-bar {
+      margin-bottom: 15px;
+      margin-top: 25px;
+      width: 100%vw;
+      text-align: left;
+  }
+
+    ul{
+      flex-direction: column;
+    }
+    li{
+      margin: 0;
+    }
+    a{
+      display: block;
+    }
+    .anchor-style{
+        text-decoration: none;
+        color:white;
+        padding:5px;
+    }
+  }
