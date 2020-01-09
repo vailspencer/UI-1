@@ -380,9 +380,33 @@ a:hover {
   }
   .name-effects {
     padding: 15px;
-    color: #E3E3E3;
+    color: #AA6C5A;
     font-size: 20;
   }
+}
+.about-container {
+  padding-top: 120px;
+}
+.about-container h1 {
+  text-align: center;
+}
+.about-container .row {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.about-container .row div {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  border: 15px solid #349CE3;
+  padding: 3px;
+  margin: 20px;
+}
+.about-container .row a {
+  text-decoration: none;
+  color: black;
 }
 /*---- NUMBER OF SLIDE CONFIGURATION ----*/
 .wrapper {
