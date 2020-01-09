@@ -1,43 +1,118 @@
+.menu-icon {
+  display:none;
+}
+
 .nav-bar {
-  margin-bottom: 15px;
+  display:flex;
+  margin-bottom: 35px;
   margin-top: 25px;
   width: 100%vw;
-  text-align: center;
+  font-size:30px;
+  justify-content: center;
+  flex-direction: column;
+  
 }
 .anchor-style{
   text-decoration: none;
   color:white;
   padding:20px;
 }
-ul{
-  margin: 0;
-  padding: 0;
-}
+
 body{
   margin: 0;
 }
 a:hover{
   background-color: #AA6C5A;
 }
-@media only screen and (max-width: 500px) {
-  .nav-bar {
-    margin-bottom: 15px;
-    margin-top: 25px;
-    width: 100%vw;
-    text-align: left;
+
+.collapsible-menu {
+  display:flex;
+  flex-direction:row;
 }
-  ul{
-    flex-direction: column;
-  }
-  li{
-    margin: 0;
-  }
-  a{
-    display: block;
-  }
-  .anchor-style{
+
+  @media only screen and (max-width:850px) {
+    .collapsible-menu {
+      display:flex;
+      justify-content: center;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 650px) {
+    .nav-bar {
+      margin-bottom: 15px;
+      margin-top: 25px;
+      width: 100%vw;
+      text-align: left;
+      justify-content: flex-start;
+    }
+    ul{
+      flex-direction: column;
+    }
+    li{
+      margin: 0;
+    }
+    a{
+      display: block;
+    }
+    .anchor-style{
       text-decoration: none;
       color:white;
       padding:5px;
+    }
+    .menu-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif; 
+    color:white;
+  }
+  .collapsible-menu {
+    background-color: #4B5CA8;
+    padding: 0px 20px;
+    flex-direction:column;
+    font-size: 20px;
+  }
+  .collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .collapsible-menu a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .collapsible-menu label {
+    font-size: 30px;
+    display: flex;
+    cursor: pointer;
+    background: url(images/icons8-menu-24.png) no-repeat left;
+    border-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  input#menu {
+    display: none;
+  }
+
+  input:checked +label {
+    background-image: url(images/icons8-close-window-24.png);
+  }
+
+  input:checked ~ label {
+    background-image: url(close.png);
+  }
+  input:checked ~ .menu-content {
+    max-height: 100%;
+  }
+
+  .menu-icon{
+    display:block;
+  }
+
+  .text-style{
+    padding-left:20px;
   }
 }

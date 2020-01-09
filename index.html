@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Refugee Stories</title>
-  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   <link href="css\index.css" rel="stylesheet">
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -13,13 +13,20 @@
 <body class="whole-page">
   <section class="top-content">
     <nav class="nav-bar">
-      <a class= "anchor-style"  href= "index.html">Home</a>
-      <a class= "anchor-style" href= "Stories.html">Stories</a>
-      <a class= "anchor-style" href= "#">Submit a Story</a>
-      <a class= "anchor-style" href= "About-us.html">About Us</a>
-      <a class= "anchor-style" href= "#">Login</a>
+      <div class="collapsible-menu">
+        <input type="checkbox" id="menu">
+        <label for="menu"><img class="menu-icon" src="images/icons8-menu-24.png"><Span class="text-style">Refugee Stories</Span></label>
+        <div class="menu-content">
+            <ul>
+                <li><a class="anchor-style" href="index.html">Home</a></li>
+                <!--<li><a class="anchor-style" href="Stories.html">Stories</a></li>-->
+                <li><a class="anchor-style" href="About-us.html">About US</a></li>
+                <li><a class="anchor-style" href="#">Login</a></li>
+            </ul>
+        </div>
+      </div> 
     </nav>
-</section>
+  </section>
 
 <!-- // rotating image test  -->
 
@@ -86,30 +93,40 @@
     
     <div class = "story-snip-one">
       <div class = "img-box">
-        <img class ="home-page-img" src="Images\woman-in-blue-glitter-v-neck-sleeveless-dress-977539.jpg" alt="walking in desert">
+        <img class ="home-page-img" src="images/woman-in-blue-glitter-v-neck-sleeveless-dress-977539 Cropped (1).jpg" alt="walking in desert">
       </div>
 
       <div class = "text-box">
         <h2 class = "name-effects">Amina Karongo</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna sit amet purus gravida. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Enim nunc faucibus a pellentesque. Nullam vehicula ipsum a arcu cursus vitae. Quisque non tellus orci ac auctor augue mauris augue. Volutpat est velit egestas dui id ornare arcu. Facilisis magna etiam tempor orci. Turpis egestas sed tempus urna. Sit amet venenatis urna cursus. In mollis nunc sed id semper. Accumsan tortor posuere ac ut consequat semper viverra nam. Porta nibh venenatis cras sed felis. Non arcu risus quis varius quam. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas. Viverra aliquet eget sit amet tellus cras adipiscing. Leo urna molestie at elementum eu facilisis sed. Nunc mattis enim ut tellus elementum sagittis vitae et. Amet consectetur adipiscing elit ut.
+        I was 19 years old when I left Nigeria. I had just completed my secondary school education and I was ready to start my first year of University when a man approached my mother with a proposition for me to go study abroad. He managed to convince my mother that he could get me a scholarship in Italy and all I had to do was give him the necessary documents for him to process the paperwork. </br></br>
+
+        After a few weeks the man came to our house and informed my mother that I had been accepted into a school in Italy and that it was a fully paid scholarship. He also informed us that I would be travelling by air to Europe and we should leave everything in his hands. Neither I nor my mother had ever travelled outside of Nigeria, let alone taken a flight. So when the man said that we would depart from the northern state of Nigeria instead of my home state Lagos, we did not question him.
       </div>
     </div>
+
     <div class = "story-snip-two">
-      <div class = "text-box">
-        <h2 class = "name-effects">Hassan Said</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna sit amet purus gravida. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Enim nunc faucibus a pellentesque. Nullam vehicula ipsum a arcu cursus vitae. Quisque non tellus orci ac auctor augue mauris augue. Volutpat est velit egestas dui id ornare arcu. Facilisis magna etiam tempor orci. Turpis egestas sed tempus urna. Sit amet venenatis urna cursus. In mollis nunc sed id semper. Accumsan tortor posuere ac ut consequat semper viverra nam. Porta nibh venenatis cras sed felis. Non arcu risus quis varius quam. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas. Viverra aliquet eget sit amet tellus cras adipiscing. Leo urna molestie at elementum eu facilisis sed. Nunc mattis enim ut tellus elementum sagittis vitae et. Amet consectetur adipiscing elit ut.
-      </div>
       <div class = "img-box">
-        <img class ="home-page-img" src="Images\luis-villasmil-hh3ViD0r0Rc-unsplash.jpg" alt="man posing">
+        <img class ="home-page-img" src="images/luis-villasmil-hh3ViD0r0Rc-unsplash Cropped (1).jpg" alt="man posing">
       </div>
+
+      <div class = "text-box">
+        <h2 class = "name-effects">Hassan Saidi</h2>
+        My name is Shafiq and I arrived in Greece from Pakistan in 2017. I worked for eight years at a gas station in Pakistan, but my income was very low, so I decided to leave for Europe.</br></br>
+
+        I ended up in Greece, hoping to earn enough to provide for my family in Pakistan. Despite finding work in the agriculture sector, my income was simply not enough to support my family and myself. I started to think more and more about my wife and our two children, so I decided to apply for IOM’s Assisted Voluntary Return and Reintegration programme.
     </div>
+  </div>
+
     <div class = "story-snip-three">
       <div class = "img-box">
-        <img class ="home-page-img" src="Images\daisy-obryan-7JPGg8S-QD4-unsplash.jpg" alt="man posing">
+        <img class ="home-page-img" src="images/daisy-obryan-7JPGg8S-QD4-unsplash Cropped (1).jpg">
       </div>
+
       <div class = "text-box">
         <h2 class = "name-effects">Javier Flores</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna sit amet purus gravida. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Enim nunc faucibus a pellentesque. Nullam vehicula ipsum a arcu cursus vitae. Quisque non tellus orci ac auctor augue mauris augue. Volutpat est velit egestas dui id ornare arcu. Facilisis magna etiam tempor orci. Turpis egestas sed tempus urna. Sit amet venenatis urna cursus. In mollis nunc sed id semper. Accumsan tortor posuere ac ut consequat semper viverra nam. Porta nibh venenatis cras sed felis. Non arcu risus quis varius quam. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas. Viverra aliquet eget sit amet tellus cras adipiscing. Leo urna molestie at elementum eu facilisis sed. Nunc mattis enim ut tellus elementum sagittis vitae et. Amet consectetur adipiscing elit ut.
+         I am a chemistry professor and thanks to my work at a university, I was able to get a scholarship to study a doctorate in the city of Montreal, in the province of Québec.</br></br>
+
+        One of the initial difficulties I faced was language. Even though my English is good, I am in a francophone province, that also has a very particular way of speaking which is not taught in French classes in my country. The change in my field of study and returning to school after 8 years of graduating from college were difficult as well.
       </div>
     </div>
   </section>
@@ -137,10 +154,4 @@
     </div>
   </footer>
 </body>
-
-
-
-
-
-
 
