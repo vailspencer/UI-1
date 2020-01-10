@@ -377,7 +377,7 @@ a:hover {
     flex-direction: column;
   }
   .img-box {
-    width: 90%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -391,7 +391,7 @@ a:hover {
   }
 }
 .about-container {
-  padding-top: 120px;
+  padding-top: 60px;
 }
 .about-container h1 {
   text-align: center;
@@ -405,7 +405,7 @@ a:hover {
 }
 .about-container .row div {
   width: 264px;
-  height: 264x;
+  height: 264px;
   padding: 3px;
   margin: 20px;
   -webkit-box-shadow: 7px 4px 63px -30px #f7f9ff;
@@ -440,7 +440,7 @@ a:hover {
 }
 /*---- NUMBER OF SLIDE CONFIGURATION ----*/
 .wrapper {
-  max-width: 60em;
+  max-width: 40em;
   margin: 1em auto;
   position: relative;
 }
