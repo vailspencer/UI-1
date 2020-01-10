@@ -179,6 +179,7 @@ a:hover {
 .collapsible-menu {
   display: flex;
   flex-direction: row;
+  font-size: 2vw;
 }
 @media only screen and (max-width: 850px) {
   .collapsible-menu {
@@ -218,7 +219,6 @@ a:hover {
     background-color: #4B5CA8;
     padding: 0px 20px;
     flex-direction: column;
-    font-size: 20px;
   }
   .collapsible-menu ul {
     list-style-type: none;
@@ -395,18 +395,20 @@ a:hover {
   text-align: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  color: black;
 }
 .about-container .row div {
-  background-color: white;
-  width: 300px;
-  height: 300px;
-  border: 15px solid #349CE3;
+  width: 264px;
+  height: 264x;
   padding: 3px;
   margin: 20px;
+  -webkit-box-shadow: 7px 4px 63px -30px #f7f9ff;
+  -moz-box-shadow: 7px 4px 63px -30px #f7f9ff;
+  box-shadow: 7px 4px 63px -30px #f7f9ff;
 }
 .about-container .row a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 /*---- NUMBER OF SLIDE CONFIGURATION ----*/
 .wrapper {
