@@ -150,7 +150,7 @@ table {
   /*text-shadow: @shadow;*/
   text-align: center;
   padding: 15px;
-  color: #AA6C5A;
+  color: black;
   font-size: 20;
 }
 .menu-icon {
@@ -273,6 +273,11 @@ body {
 a:hover {
   background-color: #AA6C5A;
 }
+.footer-box {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 @media only screen and (max-width: 500px) {
   .footer-box {
     display: none;
@@ -294,6 +299,7 @@ a:hover {
   font-size: 50px;
   /*text-shadow: @shadow;*/
   color: #E3E3E3;
+  font-size: 2vw;
 }
 .story-snip-one {
   display: flex;
@@ -409,6 +415,28 @@ a:hover {
 .about-container .row a {
   text-decoration: none;
   color: white;
+}
+.details-box {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding-top: 10px;
+  width: 250px;
+  height: 85px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  border: 2px solid white;
+  background: #349CE3;
+  -webkit-box-shadow: 7px 4px 63px -30px #f7f9ff;
+  -moz-box-shadow: 7px 4px 63px -30px #f7f9ff;
+  box-shadow: 7px 4px 63px -30px #f7f9ff;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 500px) {
+  .featured-stories {
+    font-size: 30px;
+  }
 }
 /*---- NUMBER OF SLIDE CONFIGURATION ----*/
 .wrapper {
